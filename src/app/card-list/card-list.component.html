@@ -1,16 +1,7 @@
 <div class="container">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
     <div class="cards">
-        <label class="card" for="item-1" id="song-1">
-            <app-card [foto]="foto1path" [nome]="nome1"></app-card>
-        </label>
-        <label class="card" for="item-2" id="song-2">
-            <app-card [foto]="foto2path" [nome]="nome2"></app-card>
-        </label>
-        <label class="card" for="item-3" id="song-3">
-            <app-card [foto]="foto3path" [nome]="nome3"></app-card>
-        </label>
+        <div *ngFor="let amigo of amigos">
+            <app-card [amigo]="amigo"></app-card>
+        </div>
     </div>
 </div>

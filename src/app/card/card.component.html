@@ -1,6 +1,7 @@
 <mat-card class="card">
-    <img mat-card-lg-image src={{foto}}>
-    <mat-card-title>{{nome}}</mat-card-title>
-    <mat-card-subtitle>Pontos Rev.:</mat-card-subtitle>
-    <mat-card-subtitle>Pontos Vit.:</mat-card-subtitle>
+    <img mat-card-lg-image src={{amigo.fotoPath}}>
+    <mat-card-title>{{amigo.nome}}</mat-card-title>
+    <mat-card-subtitle>Pontos Revogáveis: {{amigo.pontoRev}}</mat-card-subtitle>
+    <mat-card-subtitle>Pontos Vitalícios: {{amigo.pontoVit}}</mat-card-subtitle>
+    <button color="primary" mat-raised-button>Atualizar pontuação</button>
 </mat-card>

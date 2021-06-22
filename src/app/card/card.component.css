@@ -1,9 +1,14 @@
 .card {
     text-align: center;
     background-color: #F8F8F8;
+    margin-bottom: 20px;
 }
 
 img {
     border-radius: 75px;
+    margin-bottom: 10px;
+}
+
+mat-card-subtitle {
     margin-bottom: 10px;
 }
