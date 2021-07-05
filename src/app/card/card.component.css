@@ -1,7 +1,9 @@
 .card {
     text-align: center;
-    background-color: #F8F8F8;
-    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 250px;
 }
 
 img {

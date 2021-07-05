@@ -1,11 +1,13 @@
-html, body { height: 100%; }
+html, body { 
+    height: 100%;
+    margin: 0;
+}
 
-body { 
-    margin: 0; 
+.container { 
     font-family: Roboto, "Helvetica Neue", sans-serif;
     display: flex;
     align-items: center;
     justify-content: flex-start; 
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: #FAFAFA;
 }
