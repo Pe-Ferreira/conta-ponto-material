@@ -8,10 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input() amigo = {
-    fotoPath: "",
     nome: "",
-    pontoRev: 0,
-    pontoVit: 0,
+    pontosRevogaveis: 0,
+    pontosVitalicios: 0,
+    id: 0
   };
   
   constructor() { }
